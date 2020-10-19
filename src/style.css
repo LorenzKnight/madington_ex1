@@ -41,19 +41,124 @@ h1, h3, h4, h5{
     overflow: hidden;
 }
 .product {
-    width: 120px;
-    height: 250px;
+    width: 110px;
+    height: 215px;
     margin: 0 0 0 20px;
 }
-.product2 {
-    width: 210px;
-    height: 350px;
-    margin: 30px 0 0 50px;
+#slides{
+    position: relative;
+    height: 215px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
 }
-.product3 {
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+.slide:nth-of-type(1){
+    background-image: url("assets/symfonisk-blue.png");
+    background-repeat: no-repeat;
+    background-size: 110px;
+}
+.slide:nth-of-type(2){
+    background-image: url("assets/symfonisk-red.png");
+    background-repeat: no-repeat;
+    background-size: 110px;
+}
+
+
+.product2 {
     width: 180px;
+    height: 350px;
+    margin: 30px 0 0 80px;
+}
+#slides2{
+    position: relative;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.slide2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing2{
+    opacity: 1;
+    z-index: 2;
+}
+.slide2:nth-of-type(1){
+    background-image: url("assets/symfonisk-blue.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.slide2:nth-of-type(2){
+    background-image: url("assets/symfonisk-red.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+.product3 {
+    width: 160px;
     height: 320px;
     margin: 10px auto 0;
+}
+#slides3{
+    position: relative;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.slide3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing3{
+    opacity: 1;
+    z-index: 2;
+}
+.slide3:nth-of-type(1){
+    background-image: url("assets/symfonisk-blue.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
+}
+.slide3:nth-of-type(2){
+    background-image: url("assets/symfonisk-red.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
 }
 .logo {
     width: 70px;
